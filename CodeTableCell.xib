@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" rowHeight="31" id="kSI-KL-Kpz" customClass="CodeTableCell" customModule="CountryPhoneCodePicker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="342" height="30"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kSI-KL-Kpz" id="hvS-G7-Q48">
+                <rect key="frame" x="0.0" y="0.0" width="342" height="29"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AE.png" translatesAutoresizingMaskIntoConstraints="NO" id="gLm-GZ-7uK">
+                        <rect key="frame" x="5" y="6" width="22" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="gLm-GZ-7uK" secondAttribute="height" multiplier="22:17" id="IDw-8E-OnO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U2s-ci-Z4p">
+                        <rect key="frame" x="28" y="5" width="311" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="U2s-ci-Z4p" firstAttribute="leading" secondItem="gLm-GZ-7uK" secondAttribute="trailing" constant="1" id="1JA-GU-HVK"/>
+                    <constraint firstItem="gLm-GZ-7uK" firstAttribute="top" secondItem="hvS-G7-Q48" secondAttribute="topMargin" constant="-2" id="Dm7-uU-eel"/>
+                    <constraint firstItem="gLm-GZ-7uK" firstAttribute="leading" secondItem="hvS-G7-Q48" secondAttribute="leadingMargin" constant="-3" id="I2y-Uh-gFi"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="gLm-GZ-7uK" secondAttribute="bottom" constant="-2" id="bWe-Ss-T9T"/>
+                    <constraint firstItem="U2s-ci-Z4p" firstAttribute="centerY" secondItem="gLm-GZ-7uK" secondAttribute="centerY" id="fuo-Ga-G6B"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="U2s-ci-Z4p" secondAttribute="trailing" constant="-5" id="mew-wm-jht"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="codeLabel" destination="U2s-ci-Z4p" id="ZES-75-7hp"/>
+                <outlet property="flageImage" destination="gLm-GZ-7uK" id="DkS-va-pRF"/>
+            </connections>
+            <point key="canvasLocation" x="-1" y="-164"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="AE.png" width="40" height="30"/>
+    </resources>
+</document>
