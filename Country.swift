@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Country: NSObject {
+open class Country: NSObject {
     
     var name : String!
     var dial_code : String!
