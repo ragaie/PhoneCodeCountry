@@ -24,6 +24,7 @@
 		81B4F3BE1F77D9DE008E8172 /* CodeDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4F3BD1F77D9DE008E8172 /* CodeDropDown.swift */; };
 		81B4F3C01F77D9E9008E8172 /* CodeDropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B4F3BF1F77D9E9008E8172 /* CodeDropDown.xib */; };
 		DF0517A823F4396B00D82F8E /* CountryCode.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0517A723F4396B00D82F8E /* CountryCode.xcassets */; };
+		DF85F59D23F43E9300C72E17 /* CountryCode.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DF85F59C23F43E9300C72E17 /* CountryCode.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		81B4F3BD1F77D9DE008E8172 /* CodeDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeDropDown.swift; sourceTree = "<group>"; };
 		81B4F3BF1F77D9E9008E8172 /* CodeDropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CodeDropDown.xib; sourceTree = "<group>"; };
 		DF0517A723F4396B00D82F8E /* CountryCode.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CountryCode.xcassets; sourceTree = "<group>"; };
+		DF85F59C23F43E9300C72E17 /* CountryCode.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CountryCode.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +75,9 @@
 		81B4F39A1F77D98A008E8172 = {
 			isa = PBXGroup;
 			children = (
+				DF85F59C23F43E9300C72E17 /* CountryCode.podspec */,
 				813908F31F795AEC0084DEFF /* screen shot  */,
-				81B4F3BC1F77D998008E8172 /* code dropDown */,
+				81B4F3BC1F77D998008E8172 /* CountryCode */,
 				81B4F3A51F77D98A008E8172 /* CountryPhoneCodePicker */,
 				81B4F3A41F77D98A008E8172 /* Products */,
 			);
@@ -102,7 +105,7 @@
 			path = CountryPhoneCodePicker;
 			sourceTree = "<group>";
 		};
-		81B4F3BC1F77D998008E8172 /* code dropDown */ = {
+		81B4F3BC1F77D998008E8172 /* CountryCode */ = {
 			isa = PBXGroup;
 			children = (
 				813906E31F7916FC0084DEFF /* countryCodes.json */,
@@ -113,7 +116,7 @@
 				813904DD1F7916220084DEFF /* Country.swift */,
 				DF0517A723F4396B00D82F8E /* CountryCode.xcassets */,
 			);
-			name = "code dropDown";
+			name = CountryCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +192,7 @@
 				81B4F3AC1F77D98A008E8172 /* Main.storyboard in Resources */,
 				813906E41F7916FC0084DEFF /* countryCodes.json in Resources */,
 				813908EE1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 5.39.16 PM.png in Resources */,
+				DF85F59D23F43E9300C72E17 /* CountryCode.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
