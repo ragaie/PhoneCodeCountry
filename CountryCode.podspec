@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.name             = 'CountryCode'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = ' Simple custom view for elect country code for iOS'
  
   s.description      = <<-DESC

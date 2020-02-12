@@ -385,9 +385,9 @@ public protocol CodeDropDownDelegate {
     func filterContentForSearchText(searchText: String) {
             countries = []
         
-            var   filterdTerms = allCountries.filter { term in
+            let   filterdTerms = allCountries.filter { term in
                 
-                    return   term.name.lowercased().characters.first   == searchText.lowercased().characters.first
+                return   term.name.lowercased().first   == searchText.lowercased().first
      
                 }
         
