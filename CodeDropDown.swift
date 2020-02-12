@@ -25,7 +25,7 @@ extension UIResponder {
 
 
 
- protocol CodeDropDownDelegate {
+public protocol CodeDropDownDelegate {
     
     
     func codeDropDown(_ codeDropDown: CodeDropDown, didSelectItem country: Country)
@@ -34,9 +34,9 @@ extension UIResponder {
 }
 
 @objc
-@IBDesignable class CodeDropDown: UIView ,UITableViewDelegate,UITableViewDataSource{
+@IBDesignable open  class CodeDropDown: UIView ,UITableViewDelegate,UITableViewDataSource{
     
-    @IBOutlet weak var flageButton: UIButton!
+    @IBOutlet weak var flageIcon: UIImageView!
     
     @IBOutlet weak var actionButton: UIButton!
     
@@ -120,14 +120,14 @@ extension UIResponder {
         // to make view fit view in design you welcome.
         view.frame = self.bounds
 
-        view.autoresizingMask = [UIViewAutoresizing.flexibleWidth, UIViewAutoresizing.flexibleHeight]
+        view.autoresizingMask = [UIView.AutoresizingMask.flexibleWidth, UIView.AutoresizingMask.flexibleHeight]
         // nib.contentView.frame = bounds
         codeLabel.adjustsFontSizeToFitWidth = true
         addSubview(view)
         
         codeLabel.adjustsFontSizeToFitWidth = true
         
-        tapGesture = UITapGestureRecognizer(target: self, action: "tapBlurButton:")
+        tapGesture = UITapGestureRecognizer(target: self, action: #selector(CodeDropDown.tapBlurButton(_:)))
 
         // custom initialization logic
         
@@ -137,7 +137,7 @@ extension UIResponder {
     func initActionAndDelegete()  {
         
         
-        actionButton.addTarget(self, action: "showCountryCodes:", for: .touchUpInside)
+        actionButton.addTarget(self, action: #selector(CodeDropDown.showCountryCodes(_:)), for: .touchUpInside)
         
         //load all countries from json file
         allCountries =   self.getAllCountries()
@@ -147,7 +147,7 @@ extension UIResponder {
 
   
 
-    func showCountryCodes(_ sender : UIButton){
+    @objc func showCountryCodes(_ sender : UIButton){
         
             if showDrop == true {
                 
@@ -189,7 +189,7 @@ extension UIResponder {
                     
                     
             //////// create shadow for tableView
-                        var rectTemp = CGRect(x: 0, y: 0, width: containerView.frame.width, height: containerView.frame.height)
+                        let rectTemp = CGRect(x: 0, y: 0, width: containerView.frame.width, height: containerView.frame.height)
                     
                         containerView.layer.shadowColor = UIColor.darkGray.cgColor
                         containerView.layer.shadowOpacity = 0.5
@@ -230,7 +230,7 @@ extension UIResponder {
 
         
         if tableView.tag == 0 {
-                flageButton.setImage(UIImage.init(named: countries[indexPath.row].code), for: .normal)
+                flageIcon.image = UIImage.init(named: countries[indexPath.row].code)
         
                 codeLabel.text =   "+" + countries[indexPath.row].dial_code
         
@@ -323,7 +323,7 @@ extension UIResponder {
     }
     
     
-    func tapBlurButton(_ sender: UITapGestureRecognizer) {
+    @objc func tapBlurButton(_ sender: UITapGestureRecognizer) {
         print("Please Help!")
         
         
