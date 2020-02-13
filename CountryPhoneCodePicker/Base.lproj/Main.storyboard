@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cKe-59-qgf">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cKe-59-qgf">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,11 +19,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWs-AZ-dxD" customClass="CodeDropDown" customModule="CountryPhoneCodePicker" customModuleProvider="target">
-                                <rect key="frame" x="26" y="100" width="82.5" height="30"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RWs-AZ-dxD" customClass="CountryCodeDropDown" customModule="CountryPhoneCodePicker" customModuleProvider="target">
+                                <rect key="frame" x="26" y="80" width="100" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ijj-vP-iEt"/>
+                                    <constraint firstAttribute="width" constant="100" id="jJY-11-afV"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -40,8 +39,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="11139993443" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fXZ-7d-kTb">
-                                <rect key="frame" x="116.5" y="100.5" width="200.5" height="30"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="134" y="78.5" width="117.5" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -54,13 +52,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwg-iQ-Olp">
-                                <rect key="frame" x="26" y="148" width="61" height="21"/>
+                                <rect key="frame" x="26" y="128" width="61" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="------" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qCc-Mh-jCF">
-                                <rect key="frame" x="98" y="148" width="46" height="21"/>
+                                <rect key="frame" x="98" y="128" width="46" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -70,7 +68,6 @@
                         <constraints>
                             <constraint firstItem="Rwg-iQ-Olp" firstAttribute="top" secondItem="RWs-AZ-dxD" secondAttribute="bottom" constant="18" id="MiK-GT-LJs"/>
                             <constraint firstItem="qCc-Mh-jCF" firstAttribute="centerY" secondItem="Rwg-iQ-Olp" secondAttribute="centerY" id="Y7x-a0-Men"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fXZ-7d-kTb" secondAttribute="trailing" constant="42" id="ZP0-v7-aag"/>
                             <constraint firstItem="fXZ-7d-kTb" firstAttribute="leading" secondItem="RWs-AZ-dxD" secondAttribute="trailing" constant="8" id="eUF-3D-NhL"/>
                             <constraint firstItem="fXZ-7d-kTb" firstAttribute="centerY" secondItem="RWs-AZ-dxD" secondAttribute="centerY" constant="0.5" id="hRu-dL-pXQ"/>
                             <constraint firstItem="RWs-AZ-dxD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="k3s-AY-AZT"/>
@@ -96,7 +93,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cKe-59-qgf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="QOS-pn-Hvs">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.30474150379999998" green="0.25522387340000002" blue="0.94908279719999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">

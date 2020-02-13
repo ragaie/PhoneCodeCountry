@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController ,CodeDropDownDelegate{
+class ViewController: UIViewController ,CountryCodeDropDownDelegate{
+  
 
-    @IBOutlet weak var codePicker: CodeDropDown!
+    @IBOutlet weak var codePicker: CountryCodeDropDown!
     
     
     
@@ -54,18 +55,21 @@ class ViewController: UIViewController ,CodeDropDownDelegate{
     
     
     
+//
+//    func codeDropDown(_ fr: CountryCodeDropDown, didSelectItem country: Country) {
+//
+//
+//
+//
+//        selectCountry = country
+//
+//    }
+//
     
-    func codeDropDown(_ codeDropDown: CodeDropDown, didSelectItem country: Country) {
-        
-        
-        
-        
-        selectCountry = country
-        
-    }
-    
-    
-    
+    func codeDropDown(_ fromView: CountryCodeDropDown, didSelectItem country: Country) {
+           selectCountry = country
+      }
+      
     
     
 }
