@@ -2,9 +2,9 @@
 that give simple component to reuse for your project
 
 # how to used 
-1- copy  files from demo project  to your project 
- ![alt tag](https://github.com/ragaie/Phone-Code-Country/blob/master/Screen%20Shot%202017-09-25%20at%204.12.36%20PM.png)
- 
+1- add pod to your pod file
+
+
 2- drag an drop view in storyBoard and change it is class to  CodeDropDown
 3- create outlet from this view 
  ![alt tag](https://github.com/ragaie/Phone-Code-Country/blob/master/Screen%20Shot%202017-09-25%20at%204.11.49%20PM.png)
