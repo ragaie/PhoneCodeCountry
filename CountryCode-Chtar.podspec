@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.platform = :ios
   s.name             = 'CountryCode-Chtar'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = ' Simple custom view for elect country code for iOS'
  
   s.description      = <<-DESC
@@ -19,9 +19,9 @@ Simple custom view for data entry of your app to enter code country for phone nu
   s.source_files = '*.swift'
 
 
-  s.resources = 'CountryCode.xcassets','CodeDropDown.xib','CodeTableCell.xib','countryCodes.json'
+  s.resources = 'CountryCode.xcassets','CountryCodeDropDown.xib','CodeTableCell.xib','countryCodes.json'
 
-  s.resource_bundle = {'CountryCode' => ['CountryCode.xcassets','RatingBar.xib','CodeDropDown.xib','CodeTableCell.xib']}
+  s.resource_bundle = {'CountryCode' => ['CountryCode.xcassets','RatingBar.xib','CountryCodeDropDown.xib','CodeTableCell.xib']}
  s.swift_versions = "5.0"
   
 end

@@ -11,10 +11,6 @@
 		813904DC1F78FA1B0084DEFF /* CodeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813904DB1F78FA1B0084DEFF /* CodeTableCell.swift */; };
 		813904DE1F7916220084DEFF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813904DD1F7916220084DEFF /* Country.swift */; };
 		813906E41F7916FC0084DEFF /* countryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = 813906E31F7916FC0084DEFF /* countryCodes.json */; };
-		813908ED1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 4.13.05 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 813908EB1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 4.13.05 PM.png */; };
-		813908EE1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 5.39.16 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 813908EC1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 5.39.16 PM.png */; };
-		813908F11F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.11.49 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 813908EF1F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.11.49 PM.png */; };
-		813908F21F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.12.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 813908F01F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.12.36 PM.png */; };
 		81B4F3A71F77D98A008E8172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4F3A61F77D98A008E8172 /* AppDelegate.swift */; };
 		81B4F3A91F77D98A008E8172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4F3A81F77D98A008E8172 /* ViewController.swift */; };
 		81B4F3AC1F77D98A008E8172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B4F3AA1F77D98A008E8172 /* Main.storyboard */; };
@@ -24,6 +20,9 @@
 		81B4F3BE1F77D9DE008E8172 /* CountryCodeDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B4F3BD1F77D9DE008E8172 /* CountryCodeDropDown.swift */; };
 		81B4F3C01F77D9E9008E8172 /* CountryCodeDropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B4F3BF1F77D9E9008E8172 /* CountryCodeDropDown.xib */; };
 		DF0517A823F4396B00D82F8E /* CountryCode.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0517A723F4396B00D82F8E /* CountryCode.xcassets */; };
+		DF4C6D482407F0D700129DCA /* Screen Shot 2020-02-27 at 2.42.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4C6D452407F0D600129DCA /* Screen Shot 2020-02-27 at 2.42.01 PM.png */; };
+		DF4C6D492407F0D700129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.13.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4C6D462407F0D600129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.13.png */; };
+		DF4C6D4A2407F0D700129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.19.png in Resources */ = {isa = PBXBuildFile; fileRef = DF4C6D472407F0D600129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.19.png */; };
 		DF85F59D23F43E9300C72E17 /* CountryCode-Chtar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DF85F59C23F43E9300C72E17 /* CountryCode-Chtar.podspec */; };
 /* End PBXBuildFile section */
 
@@ -32,10 +31,6 @@
 		813904DB1F78FA1B0084DEFF /* CodeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeTableCell.swift; sourceTree = "<group>"; };
 		813904DD1F7916220084DEFF /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		813906E31F7916FC0084DEFF /* countryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countryCodes.json; sourceTree = "<group>"; };
-		813908EB1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 4.13.05 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot Sep 25, 2017, 4.13.05 PM.png"; sourceTree = "<group>"; };
-		813908EC1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 5.39.16 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot Sep 25, 2017, 5.39.16 PM.png"; sourceTree = "<group>"; };
-		813908EF1F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.11.49 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-09-25 at 4.11.49 PM.png"; sourceTree = "<group>"; };
-		813908F01F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.12.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-09-25 at 4.12.36 PM.png"; sourceTree = "<group>"; };
 		81B4F3A31F77D98A008E8172 /* CountryPhoneCodePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryPhoneCodePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B4F3A61F77D98A008E8172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B4F3A81F77D98A008E8172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +42,9 @@
 		81B4F3BD1F77D9DE008E8172 /* CountryCodeDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeDropDown.swift; sourceTree = "<group>"; };
 		81B4F3BF1F77D9E9008E8172 /* CountryCodeDropDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryCodeDropDown.xib; sourceTree = "<group>"; };
 		DF0517A723F4396B00D82F8E /* CountryCode.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CountryCode.xcassets; sourceTree = "<group>"; };
+		DF4C6D452407F0D600129DCA /* Screen Shot 2020-02-27 at 2.42.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-02-27 at 2.42.01 PM.png"; sourceTree = "<group>"; };
+		DF4C6D462407F0D600129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.13.png"; sourceTree = "<group>"; };
+		DF4C6D472407F0D600129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.19.png"; sourceTree = "<group>"; };
 		DF85F59C23F43E9300C72E17 /* CountryCode-Chtar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CountryCode-Chtar.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,10 +62,9 @@
 		813908F31F795AEC0084DEFF /* screen shot  */ = {
 			isa = PBXGroup;
 			children = (
-				813908EF1F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.11.49 PM.png */,
-				813908F01F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.12.36 PM.png */,
-				813908EB1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 4.13.05 PM.png */,
-				813908EC1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 5.39.16 PM.png */,
+				DF4C6D452407F0D600129DCA /* Screen Shot 2020-02-27 at 2.42.01 PM.png */,
+				DF4C6D462407F0D600129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.13.png */,
+				DF4C6D472407F0D600129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.19.png */,
 			);
 			name = "screen shot ";
 			sourceTree = "<group>";
@@ -181,17 +178,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				813908ED1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 4.13.05 PM.png in Resources */,
-				813908F21F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.12.36 PM.png in Resources */,
+				DF4C6D492407F0D700129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.13.png in Resources */,
 				81B4F3B41F77D98A008E8172 /* LaunchScreen.storyboard in Resources */,
-				813908F11F795ACF0084DEFF /* Screen Shot 2017-09-25 at 4.11.49 PM.png in Resources */,
 				81B4F3C01F77D9E9008E8172 /* CountryCodeDropDown.xib in Resources */,
+				DF4C6D482407F0D700129DCA /* Screen Shot 2020-02-27 at 2.42.01 PM.png in Resources */,
 				81B4F3B11F77D98A008E8172 /* Assets.xcassets in Resources */,
 				813904DA1F78FA070084DEFF /* CodeTableCell.xib in Resources */,
 				DF0517A823F4396B00D82F8E /* CountryCode.xcassets in Resources */,
 				81B4F3AC1F77D98A008E8172 /* Main.storyboard in Resources */,
+				DF4C6D4A2407F0D700129DCA /* Simulator Screen Shot - iPhone 11 Pro Max - 2020-02-27 at 14.42.19.png in Resources */,
 				813906E41F7916FC0084DEFF /* countryCodes.json in Resources */,
-				813908EE1F795ABF0084DEFF /* Simulator Screen Shot Sep 25, 2017, 5.39.16 PM.png in Resources */,
 				DF85F59D23F43E9300C72E17 /* CountryCode-Chtar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
